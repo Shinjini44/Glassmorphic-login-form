@@ -1,0 +1,135 @@
+body{
+    background: url("forest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:96vh;
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content:center;
+    background-color: rgba(222, 217, 217, 0.4);
+    z-index: 0;
+    margin: 5vh 2vw;
+    padding: 5vh 4vw;
+    border-radius: 29px;
+    border-color: white;
+    box-shadow: inset 13px 9px 21px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+    flex-direction: column
+}
+form{
+    z-index: 1;
+}
+form h1{
+    margin-bottom: 49px;
+    text-align: center;
+    margin-top: -42px;
+    color:white;
+}
+input{
+    width: 100%;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(238, 233, 233);
+    z-index: 1;
+    position: relative;
+    opacity: 0.7;
+    border-color: rgb(238, 233, 233);
+    box-shadow: inset 13px 9px 6px rgba(0, 0, 0, 0.2) ,0 0 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+input:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(224, 222, 222);
+}
+button{
+    width: 100%;
+    height:40px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.buttons button{
+    background-color: #12b7c9;
+    color: white;
+    box-shadow: inset 13px 9px 6px rgba(0, 0, 0, 0.2),0 0 10px rgba(0, 0, 0, 0.15);
+    border-color: #12b7c9;
+    
+}
+.buttons button:hover{
+    background-color: #0aa2b3;
+    border-color: #0aa2b3;
+}
+.Apple img{
+    height: 1rem;
+    margin-right: 8px;
+}
+.Apple button{
+    background-color: black;
+    color: white;
+    box-shadow: inset 13px 9px 6px rgba(113, 112, 112, 0.2),0 0 10px rgba(129, 128, 128, 0.15);
+    border-color: black;
+    
+}
+.Apple button:hover{
+    background-color: rgb(26, 25, 25);
+    border-color: rgb(26, 25, 25);
+}
+.Google img{
+    height: 1rem;
+    margin-right: 8px;
+    
+}
+.Google button{
+    box-shadow: inset 13px 9px 6px rgba(0, 0, 0, 0.2),0 0 10px rgba(0, 0, 0, 0.15);
+    border-color:white ;
+    
+}
+.Google button:hover{
+    background-color: rgb(203, 200, 200);
+    border-color:rgb(203, 200, 200) ;
+}
+p{
+    color: white;
+}
+p a{
+    color: black;
+}
+p a:hover{
+    color:rgb(36, 36, 37);
+}
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .forms {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    form h1 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        height: 40px;
+    }
+}
+
