@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Glassmorphic Login Form
 
 This is a stylish and responsive **Glassmorphic Login Form** built using pure HTML and CSS.
