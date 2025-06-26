@@ -14,11 +14,14 @@ This is a stylish and responsive **Glassmorphic Login Form** built using pure HT
 
 ### 🚀 How to Use
 
-Just open `form.html` in your browser.
+Just open `index.html` in your browser.
 
 ### 📁 Files Included
-- `form.html` — structure of the form
+- `index.html` — structure of the form
 - `styles.css` — styles and effects
+- `forest.jpg` — backgrounf image for form
+- `apple.png`  — icon
+- `google.png` — icon
 
 ---
 =======
