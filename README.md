@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Glassmorphic Login Form
 
 This is a stylish and responsive **Glassmorphic Login Form** built using pure HTML and CSS.
@@ -22,3 +23,7 @@ Just open `form.html` in your browser.
 - `styles.css` — styles and effects
 
 ---
+=======
+# Glassmorphic-login-form
+A responsive glassmorphic login form using HTML &amp; CSS
+>>>>>>> 03428dfbbce8f9cb28b5eaf765291d22e60e73c0
